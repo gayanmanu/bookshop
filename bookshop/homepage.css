@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.prod.website-files.com/5f64854a08f25af4fc8763b6/622b2a8c5ae8dd46d414abf1_bookshop.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    color: rgb(0, 52, 100);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 15, 100, 0.8); /* Dark green with transparency */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-item {
+    border: 1px solid rgb(0, 32, 100);
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    background-color: rgba(0, 18, 100, 0.8); /* Dark green with transparency */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+    margin: 20px;
+    border-radius: 10px;
+}

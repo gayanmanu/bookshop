@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sinhala Book Shop</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Sinhala Book Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="content">
+            <h2>Contact Us</h2>
+            <form id="contact-form" onsubmit="submitContactForm(event)">
+                <input type="text" id="contact-no" placeholder="Your Contact Number" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="date" id="date" required>
+                <input type="text" id="facebook-name" placeholder="Your Facebook Name" required>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-response" class="response" style="display: none;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sinhala Book Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
